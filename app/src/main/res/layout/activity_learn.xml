@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qmuiteam.qmui.widget.roundwidget.QMUIRoundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/BeforeHospitalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="261dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="584dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="入院前"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/InHospitalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="401dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="入院流程"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/AfterHospitalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="263dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="211dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="出院后"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/AnswerQuestionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="答题"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/BeforeHospitalImage"
+        android:layout_width="211dp"
+        android:layout_height="213dp"
+        android:layout_weight="1"
+        android:src="@drawable/beforehospital" />
+
+    <ImageView
+        android:id="@+id/InHospitalImage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="345dp"
+        android:src="@drawable/inhospital" />
+
+    <ImageView
+        android:id="@+id/AfterHospitalImage"
+        android:layout_width="211dp"
+        android:layout_height="198dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="145dp"
+        android:src="@drawable/afterhospital" />
+
+    <ImageView
+        android:id="@+id/AnswerQuestionImage"
+        android:layout_width="199dp"
+        android:layout_height="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="211dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/answerquestion" />
+
+</com.qmuiteam.qmui.widget.roundwidget.QMUIRoundRelativeLayout>

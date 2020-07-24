@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/BeforeHospitalTital01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_send"
+        android:text="碘与放射性核素I_131"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/BeforeHospitalImage01"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/beforehospital_items1image1" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        碘是人体的必需微量元素之一,与人类的健康息息相关，它参与甲状腺激素的合成，是维持人体甲状腺功能所必需的元素，进而影响全身的新陈代谢状态和各大系统的功能状态。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        健康成人体内碘的总量约为20-50mg,平均为30mg,其中80%以上来自食物，10%-20%来自饮水，0-5%来自空气。甲状腺是富集碘能力最强的器官。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        放射性核素I-131是一种特殊药物，与普通碘盐中的碘同属碘的同位素。两者化学性质相同，在人体内遵循同样的代谢途径，但是其物理性质不同。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        放射性核素131I能发出用于显像的y射线和用于发挥治疗作用的β射线"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText1_5"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        因为人体内稳定的碘离子会与放射性核素I-131竞争进入残留的甲状腺摄碘组织，若拟行I-131治疗的患者体内稳定的碘离子过多，其治疗时摄入放射性核素I-131的能力必然会降低。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText1_6"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="        所以拟行I-131治疗的DTC患者一定要认真学习低碘饮食的重要意义及注意事项。"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/BeforeHospitalText1_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        那么，在保证治疗效果的前提下，如何正确合理饮食呢?这就是我们应该重视的。"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">>
+
+
+    <TextView
+        android:id="@+id/AfterHospital4Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="12sp"
+        android:text="        治疗后1个月内，继续低碘饮食（忌食海带、紫菜等），避免使用含碘的药物（如X-CT对比剂）。"
+        android:textSize="18sp" />
+
+</LinearLayout>

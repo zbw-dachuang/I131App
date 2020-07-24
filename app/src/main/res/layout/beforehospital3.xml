@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/BeforeHospitalTital03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_send"
+        android:text="膳食碘摄入量的评价标准"
+        android:textColor="#009688"
+        android:textSize="24sp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/BeforeHospitalImage03"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/beforehospital_items3image1" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText3_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:lineSpacingExtra="8sp"
+        android:text="        膳食碘的摄入量主要来源于食物、饮用水及加碘食盐，按照下述公式计算:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalText3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="        膳食碘摄入量= (各类食物摄入量×各类食物碘含量) + (饮用水量+烹调食物用水量) ×水碘含量+食盐摄入量×盐碘含量×( 1-烹调损失率)，WHO定义的加碘碘食盐烹调损失率为20%，常见食物碘含量详见表。"
+        android:textSize="18sp"/>
+</LinearLayout>

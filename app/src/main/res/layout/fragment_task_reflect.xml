@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/renwufanxing" />
+
+        <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_below="@id/imageView30"
+            android:drawableStart="@android:drawable/ic_menu_send"
+            android:layout_marginTop="10dp"
+            android:text="学习"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView57"
+        android:lineSpacingExtra="10sp"
+        android:text="今天您查看APP上有无更新的推送内容了吗？"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox1"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="10sp"
+        android:text="您今天在APP上打卡看宣教内容及自主从网上了解有关疾病和治疗的知识了吗？"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox2"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="10sp"
+        android:text="今天您完成APP上部分题目了吗？"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox3"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="10sp"
+        android:text="今天您查看APP上有无更新的推送内容了吗？"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox4"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="10sp"
+        android:text="您的学习进度没有落后吧？"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox5"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@android:drawable/ic_menu_send"
+        android:text="身体"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView58"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您已经开始并坚持按照要求调理身体了吗？"
+        android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBox6"
+            android:drawableStart="@android:drawable/ic_menu_send"
+            android:layout_marginTop="10dp"
+            android:text="用药"
+            android:textColor="#009688"
+            android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView59"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否已经按照医生的要求停用“优甲乐”一类的甲状腺激素药物。"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox7"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否停止接触使用其他如碘酒一类的含碘药物？"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox8"
+        android:drawableStart="@android:drawable/ic_menu_send"
+        android:layout_marginTop="10dp"
+        android:text="准备"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView60"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否已经大致了解整个治疗（住院前、住院中、住院后）的全过程并且知道各个阶段您需要做什么？"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox9"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否已经准备好入院所需的材料（如医保材料等）"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox10"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否已经准备好入院所需携带的生活用品？"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox11"
+        android:drawableStart="@android:drawable/ic_menu_send"
+        android:text="饮食"
+        android:layout_marginTop="10dp"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView61"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否了解哪些是含碘较高的食物。"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox12"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginTop="10dp"
+        android:text="您是否已经按照要求使用低碘食物"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/checkBox13"
+        android:layout_alignLeft="@id/checkBox13"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="提交" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

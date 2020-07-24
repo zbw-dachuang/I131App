@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/BeforeHospitalQ1Tital3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Q3 现在做菜都不敢加调味品了，食之无味怎么办? "
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/BeforeHospitalQ3Image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/question3image1" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalQ3Text1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center|start"
+        android:lineSpacingExtra="10sp"
+        android:text="         目前我国食用加碘盐含碘量为20 -30μg/g。"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/BeforeHospitalQ3Text2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center|start"
+        android:lineSpacingExtra="10sp"
+        android:text="         若每天吃4~ 5g碘盐，一天的摄碘量就远远超过了50μg (低碘饮食标准)，爱吃咸的患者则更有可能超标。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalQ3Text3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center|start"
+        android:lineSpacingExtra="10sp"
+        android:text="         而且鸡精中的含碘量也很高(766μg/ 100g)。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalQ3Text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:lineSpacingExtra="10sp"
+        android:text="         因此，低碘饮食期间建议换用无碘盐，选择蘑菇精、无碘酱油、米醋等低碘调味品，其它调味品如花椒、大蒜、葱、姜等均可正常选用。"
+        android:textSize="18sp" />
+    </LinearLayout>
+

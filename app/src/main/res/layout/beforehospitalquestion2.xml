@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Tital2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Q2 真的好想吃海鲜啊，我什么时候才能吃海鲜呢? "
+                android:textColor="#009688"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/BeforeHospitalQ2Image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/question2image1" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ2Text1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        海产品的含碘量均高于其它食物，其中藻类含碘量最高，需绝对禁食。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ2Text2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:text="        其次是海贝类、虾蟹。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ2Text3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        虽然海鱼中有少数几种含碘量不太高，但在内地市场很少有售卖，不易获取。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ2Text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        总之，为了保证治疗的效果，对于含碘量不明确的海鲜类不要轻易选用，待确定疾病达到治愈标准后才可适量食用海鲜。 "
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

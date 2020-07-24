@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/first_background" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView11_personInfo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_alignBottom="@id/button8_personInfo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@android:drawable/ic_lock_lock" />
+
+
+    <Button
+        android:id="@+id/button8_personInfo"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView11_personInfo"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="27dp"
+        android:text="个人资料"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView12_bodyaccess"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_alignBottom="@id/button9_bodyaccess"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="1dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/button9_bodyaccess"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button8_personInfo"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="34dp"
+        android:text="身体评估"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView12_leave"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@id/imageView11_personInfo"
+        android:layout_alignBottom="@id/button10_leave"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="-1dp"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <Button
+        android:id="@+id/button10_leave"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button9_bodyaccess"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="34dp"
+        android:text="退出登录"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragment2Fragment">
+
+    <fragment
+        android:id="@+id/fragment1Fragment"
+        android:name="com.example.i131app.Fragment1Fragment"
+        android:label="主页"
+        tools:layout="@layout/fragment1" />
+
+    <fragment
+        android:id="@+id/fragment2Fragment"
+        android:name="com.example.i131app.Fragment2Fragment"
+        android:label="消息"
+        tools:layout="@layout/fragment2" />
+
+    <fragment
+        android:id="@+id/fragment3Fragment"
+        android:name="com.example.i131app.Fragment3Fragment"
+        android:label="我的"
+        tools:layout="@layout/fragment3" />
+</navigation>

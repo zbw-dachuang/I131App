@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/item_detail_3"
+    style="?android:attr/textAppearanceLarge"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ItemDetailFragment_beforelearn"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ProcessTital3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="入院须知"
+            android:textColor="#009688"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Process3Text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:drawableStart="?attr/actionModePasteDrawable"
+            android:text="到达时间"
+            android:textColor="#0B0909"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Process3Text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="    我们要按照约定的入院时间 当天早上8：30之前到达病房。 因为入院后我们马上就要检查了， 所以我们晨起需禁食水（降压药可正常服用）。"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Process3Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:drawableStart="?attr/actionModePasteDrawable"
+            android:text="我们入院要带些什么呢？"
+            android:textColor="#0B0909"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Process3Text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="    准备入院所需生活用品 （详见住院病人备物清单）；  我们可以带无核的水果；  可以带符合低碘要求的零食 和自己喜好的休闲娱乐用品。"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Process3Text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:drawableStart="?attr/actionModePasteDrawable"
+            android:text="有关医保"
+            android:textColor="#0B0909"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Process3Text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="    医保病人请在入院前个3工作日内办好转诊手续， 不然可能会给您的出院报销结算等事带来麻烦。"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Process3Text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:drawableStart="?attr/actionModePasteDrawable"
+            android:text="注意"
+            android:textColor="#0B0909"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Process3Text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="    带齐既往与疾病相关的手术及检查资料。"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Process3Text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="    如果您不能按时入院进行治疗，请及时与我们联系。"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/Process3Text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="    联系电话：027-69378815"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/Process3Text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="             027-69378805"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</ScrollView>

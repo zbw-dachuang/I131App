@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Tital4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Q4 那么多东西不能吃，低碘饮食期间我该如何搭配饮食呢?"
+                android:textColor="#009688"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/BeforeHospitalQ4Image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/question4image1" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ4Text1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        通过查阅资料，我们可以发现大部分陆地上的天然新鲜食材(除腌制及加工食物)含碘量并不高。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ4Text2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        绝大部分新鲜水果蔬菜中的含碘量是低于10μg/ 100g的；"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ4Text3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        新鲜鸡肉、牛羊肉、猪肉的含碘量也低于10μg/ 100g；"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/BeforeHospitalQ4Text4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        菌类中除了木耳( 10.1μg/100g) ,其余的均低于4μg/ 100g。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ4Text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        因此，为了不降低生活质量，只要我们用心挑选，相信总会找到能够满足基本需求的食物。"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

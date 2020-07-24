@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/first_background" />
+
+
+    <Button
+        android:id="@+id/button1_learn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="150dp"
+        android:text="学习" />
+
+    <Button
+        android:id="@+id/button2_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="270dp"
+        android:text="查询" />
+
+    <Button
+        android:id="@+id/button3_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/button1_learn"
+        android:text="记录" />
+
+    <Button
+        android:id="@+id/button4_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="270dp"
+        android:layout_toRightOf="@id/button2_search"
+        android:text="反思" />
+
+    <ImageView
+        android:id="@+id/imageView1_learn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/button2_search"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="91dp"
+        app:srcCompat="@drawable/xuexi" />
+
+    <ImageView
+        android:id="@+id/imageView2_search"
+        android:layout_width="53dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/button1_learn"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="205dp"
+        app:srcCompat="@drawable/sousuo" />
+
+    <ImageView
+        android:id="@+id/imageView3_record"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/button3_record"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/jilu" />
+
+    <ImageView
+        android:id="@+id/imageView4_review"
+        android:layout_width="53dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/button1_learn"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="205dp"
+        app:srcCompat="@drawable/renwufanxing" />
+
+
+</RelativeLayout>

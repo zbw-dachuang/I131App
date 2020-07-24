@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bodyAssess"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/body_assess_backgroud">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.进食"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要极大帮助或完全依赖他人，或留胃管" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要部分帮助" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立进食" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.洗澡"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2">
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要帮助" />
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立完成" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.修饰"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3">
+
+            <RadioButton
+                android:id="@+id/rb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要帮助" />
+
+            <RadioButton
+                android:id="@+id/rb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立完成洗脸、刷牙、梳头、剃须" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.穿衣"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r4">
+            <RadioButton
+                android:id="@+id/rb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要极大帮助或完全依赖他人" />
+
+            <RadioButton
+                android:id="@+id/rb9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要部分帮助" />
+
+            <RadioButton
+                android:id="@+id/rb10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立进食" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.控制大便"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r5">
+            <RadioButton
+                android:id="@+id/rb11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完全失控" />
+
+            <RadioButton
+                android:id="@+id/rb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="偶尔失控或需要他人提示" />
+
+            <RadioButton
+                android:id="@+id/rb13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可控制" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.控制小便"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r6">
+
+            <RadioButton
+                android:id="@+id/rb14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完全失控或留置尿管" />
+
+            <RadioButton
+                android:id="@+id/rb15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="偶尔失控或需要他人提示" />
+
+            <RadioButton
+                android:id="@+id/rb16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可控制" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.如厕"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r7">
+
+            <RadioButton
+                android:id="@+id/rb17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要极大帮助或完全依赖他人" />
+
+            <RadioButton
+                android:id="@+id/rb18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需部分帮助" />
+
+            <RadioButton
+                android:id="@+id/rb19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立完成" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.床椅移动"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r8">
+
+            <RadioButton
+                android:id="@+id/rb20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完全依赖他人" />
+
+            <RadioButton
+                android:id="@+id/rb21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要极大帮助" />
+
+            <RadioButton
+                android:id="@+id/rb22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要部分帮助" />
+
+            <RadioButton
+                android:id="@+id/rb23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立完成" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.平地行走"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r9">
+
+            <RadioButton
+                android:id="@+id/rb24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完全依赖他人" />
+
+            <RadioButton
+                android:id="@+id/rb25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要极大的帮助" />
+
+            <RadioButton
+                android:id="@+id/rb26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要部分帮助" />
+
+            <RadioButton
+                android:id="@+id/rb27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立在平地上行走45米" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.上下楼梯"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r10">
+            <RadioButton
+                android:id="@+id/rb28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要极大帮助或完全依赖他人" />
+
+            <RadioButton
+                android:id="@+id/rb29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要部分帮助" />
+
+            <RadioButton
+                android:id="@+id/rb30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可独立完成" />
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginAnswer"
+            android:text="提交结果"/>
+
+    </LinearLayout>
+
+</ScrollView>

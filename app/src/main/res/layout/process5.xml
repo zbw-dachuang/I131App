@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/item_detail_5"
+    style="?android:attr/textAppearanceLarge"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ItemDetailFragment_beforelearn"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ProcessTital5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_agenda"
+        android:text="入院之前你需要准备"
+        android:textColor="#009688"
+        android:textSize="30sp" />
+    <com.bin.david.form.core.SmartTable
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/neccessity">
+    </com.bin.david.form.core.SmartTable>
+
+
+</LinearLayout>

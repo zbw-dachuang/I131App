@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/first_background" />
+
+    <Button
+        android:id="@+id/BeforeHospitalButtonI1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+    android:gravity="center|start"
+        android:text="    1. 碘与放射性核素I-131"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BeforeHospitalButtonI2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="    2. 什么是低碘饮食呢？"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BeforeHospitalButtonI3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="    3.膳食碘摄入量的评价标准"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BeforeHospitalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center|start"
+        android:text="＊常见问题答疑"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BeforeHospitalQ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="    Q1 刚做完手术能吃鸡蛋牛奶吗？"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BeforeHospitalQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="    Q2 什么时候能吃海鲜呢？"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BeforeHospitalQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="    Q3 做菜不加调味品？"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BeforeHospitalQ4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="    Q4 如何搭配饮食呢？"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
+    </ScrollView>

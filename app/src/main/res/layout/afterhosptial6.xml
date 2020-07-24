@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/AfterHospital6Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="颈部胀痛"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/AfterHospital6Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        由于接受碘131治疗早期可见颈部胀痛等放射性甲状腺炎症状，应避免扪诊或挤压甲状腺，放松心情，症状3~4 d会自行消失。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/AfterHospital6Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="口腔干燥症"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/AfterHospital6Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="10sp"
+        android:text="        碘131治疗最常见的永久性不良反应是口腔干燥症，如有口腔干燥症的朋友应积极预防龋齿，还常常会出现呕吐、恶心、身体乏力、食欲不振、腹泻等胃肠道的不良症状。这时候，为有效地缓解痛苦，建议多喝水，减小对胃肠道的刺激。"
+        android:textSize="18sp" />
+
+</LinearLayout>

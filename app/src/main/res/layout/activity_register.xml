@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:text="姓名：" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:hint="请输入您的名字"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:autofillHints="" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/Nname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:text="昵称：" />
+
+        <EditText
+            android:id="@+id/NnameText"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:hint="请输入您的昵称"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:autofillHints="" />
+
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|right"
+            android:text="性别：" />
+
+        <RadioGroup
+            android:id="@+id/sexRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/man" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/woman" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|right"
+            android:text="预约状态：" />
+
+        <RadioGroup
+            android:id="@+id/stateRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/unReserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="未预约" />
+
+            <RadioButton
+                android:id="@+id/Reserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="0dp"
+                android:text="已预约" />
+
+            <RadioButton
+                android:id="@+id/finished"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="已完成治疗" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <TableRow android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/inDate"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|right"
+            android:text="通知入院时间：" />
+
+        <TextView
+            android:id="@+id/indateText"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/disease"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|right"
+            android:lineSpacingExtra="12sp"
+            android:text="您的疾病类型：" />
+    <RadioGroup
+        android:id="@+id/diseaseRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/type1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="@string/disease_type1" />
+                <RadioButton
+                    android:id="@+id/type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="@string/disease_type2" />
+                <RadioButton
+                    android:id="@+id/type3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="@string/disease_type3" />
+
+    </RadioGroup>
+    </LinearLayout>
+
+
+    <TableRow android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|right"
+            android:text="电话号码：" />
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:hint="请输入电话号码"
+            android:inputType="text"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/IDcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:text="身份证号：" />
+
+        <EditText
+            android:id="@+id/IDcardText"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:hint="请输入身份证号"
+            android:inputType="text"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:text="密码：" />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:hint="请输入密码"
+            android:inputType="text"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/passwordCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:text="密码：" />
+
+        <EditText
+            android:id="@+id/passwordCheckText"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:hint="请再次输入密码"
+            android:inputType="text"
+            android:singleLine="true" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:text="注   册" />
+</TableLayout>
+
+
+</ScrollView>

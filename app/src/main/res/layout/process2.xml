@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_detail_2"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:textIsSelectable="true"
+    tools:context=".ItemDetailFragment_beforelearn"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ProcessTital2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药物停用"
+        android:drawableStart = "@android:drawable/ic_menu_help"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/Process2Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     停用甲状腺激素类药物。一般情况下，在预约时间前三周开始停用。"
+        android:textColor="#0E0C0C"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/Process2Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="比如：优甲乐、雷替斯、甲状腺素片、含碘复合维生素等"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Process2Text3"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:drawableStart = "@android:drawable/ic_menu_help"
+        android:text="禁用药物"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/Process2Text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     在这段时间里，我们是不能用含碘药物的，比如碘造影剂、碘伏消毒液、胺碘酮等；"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Process2Text5"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:shadowColor="#009688"
+        android:text="禁食髙碘食物"
+        android:drawableStart = "@android:drawable/ic_menu_help"
+        android:textColor="#009688"
+        android:textColorHighlight="#310202"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/Process2Text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      这一点非常重要！！!"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/Process2Text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      1. 所有海产品：比如海带、紫菜、海鱼、海虾、海蟹等；"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/Process2Image1"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/detail2image2" />
+
+    <TextView
+        android:id="@+id/Process2Text8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      2. 含碘丰富的中药：比如昆布、海藻、贝母、木通、香附、连翘等；"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/Process2Image2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/detail2image" />
+</LinearLayout>

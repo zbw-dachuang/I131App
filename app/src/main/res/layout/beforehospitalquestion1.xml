@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Tital1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Q1 做完手术，身体恢复需要补充蛋白质，那么鸡蛋牛奶可以吃吗? "
+                android:textColor="#009688"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/BeforeHospitalQ1Image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/question1image1" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Text1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:text="        数据显示蛋类含碘量是偏高的"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Text2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="        最高的是鹌鸡蛋(233μg/ 100g)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Text3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center|start"
+                android:text="        其次是鹅蛋、鸭蛋、鸡蛋(22.5μg/ 100g)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Text4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        而且蛋类中的碘含量主要集中在蛋黄部分，故建议在入院治疗前三周的准备阶段不要吃蛋类食物。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Text5"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        因奶源和厂家加工工艺不同，牛奶及奶制品的含碘量差异很大，所以对于碘含量不明确的食物，在入院治疗前三周的准备阶段内尽量不要选择。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BeforeHospitalQ1Text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:lineSpacingExtra="10sp"
+                android:text="        若想补充机体所需的蛋白质可选用新鲜的淡水鱼或家禽类瘦肉等优质蛋白。 "
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
